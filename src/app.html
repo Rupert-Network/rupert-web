@@ -6,7 +6,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%svelte.head%
 	</head>
-	<body style="width: 100%;">
+	<body class="fill">
 		<div id="svelte">%svelte.body%</div>
 	</body>
 </html>
+<style>
+	.fill {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		margin: 0;
+		height: 100%;
+	}
+</style>
