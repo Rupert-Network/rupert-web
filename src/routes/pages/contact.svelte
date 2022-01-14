@@ -28,8 +28,8 @@ h2{
   font-family: 'Poppins';
   color: #EB5E28;
   font-size: 60px;
-  box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
   background-color: #FFFCF2;
+  margin: 0;
 }
 a{
   color:#EB5E28;
@@ -37,19 +37,20 @@ a{
 .text_column_center {
   font-family: 'Poppins';
 	line-height: 25px;
-  box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
-  -webkit-box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
   padding: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #EB5E28;
   background-color: #FFFCF2;
+
 }
 .container{
-  background: #403D39;
+  background-color: #FFFCF2;
   width:100%;
   margin-left: auto;
   margin-right: auto;
+  margin: 0;
+  background-color:#403D39;
 
 }
 

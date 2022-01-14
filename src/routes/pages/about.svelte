@@ -29,8 +29,8 @@ h2{
   font-family: 'Poppins';
   color: #EB5E28;
   font-size: 60px;
-  box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
   background-color: #FFFCF2;
+  margin: 0;
 }
 h3{
   font-family: 'Poppins';
@@ -38,8 +38,6 @@ h3{
   font-size: 20px;
   width:100%;
   text-align: center;
-  box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
-  -webkit-box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
   color: #EB5E28;
   background-color: #FFFCF2;
 }

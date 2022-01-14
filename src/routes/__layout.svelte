@@ -1,21 +1,51 @@
-<div class = "header">
+<script>
+  import Footer from "$lib/Footer.svelte"
+</script>
+
+<div class="header">
   <h1>Rupert</h1>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="/pages/whitepages">WhitePages</a></li>
     <li><a href="/pages/contact">Contact</a></li>
-    <li><a href="/pages/about">About</a></li>
+    <li style="display: inline-block;"><a href="/pages/about">About</a></li>
   </ul>
 </div>
+
+<div class="page">
+  <div class="content">
+    <slot></slot>
+  </div>
+
+  <div class="god-kill-me">
+    <Footer/>
+  </div>
+</div>
 <style>
-.header{
+.god-kill-me {
+  flex-shrink: 0;
+}
+.content {
+  flex-grow: 1;
+}
+.page {
+  width: 100%;
   display: flex;
-  flex-direction:row;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #403D39;
+  padding: 0;
+}
+.header{
+  display: inline-flex;
+  flex-direction: row;
   justify-content: space-between;
-  margin: 0;
-  overflow: hidden;
-/* background-color: #FFFCF2; */
-  background-color: transparent;
+  width: 100%;
+  z-index: 10;
+  top:0;
+  left: 0;
+/* original background-color: #FFFCF2; */
+  background-color: #FFFCF2;
   padding: 10px;
   -webkit-box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
   box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
@@ -31,15 +61,12 @@ h1{
 }
 ul {
   list-style-type: none;
-
-}
-
-li {
-  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 li a {
-  display: block;
   color: #403D39 ;
   text-align: center;
   padding: 14px 16px;
@@ -52,4 +79,3 @@ li a:hover {
   color: #FFFCF2;
 }
 </style>
-<slot></slot>

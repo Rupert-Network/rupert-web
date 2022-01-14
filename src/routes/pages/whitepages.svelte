@@ -17,12 +17,11 @@ toolbar=0&view=Fit&scrollbar=0" -->
 h2{
   background-color: #FFFCF2;
   padding: 10px;
-  -webkit-box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
-  box-shadow: -1px 12px 46px -5px rgba(0,0,0,0.62);
   color: #EB5E28;
   font-family: 'Poppins';
-  border-radius: 0.7rem;
+
   top: 150px;
+  margin: 0;
 }
 .container{
   background: #403D39;
