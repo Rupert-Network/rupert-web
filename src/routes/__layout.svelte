@@ -5,14 +5,22 @@
 
 
 <div class="page">
-  <Header/>
+  <div class="top">
+    <Header/>
+  </div>
+  <div style="height: 6rem; width: 100%;"/>
   <slot></slot>
   <div class="god-kill-me">
-    <Footer/>
-  </div>
+    <Footer/> </div>
 </div>
 
 <style>
+  .top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
   .god-kill-me {
     flex-shrink: 0;
     position: absolute;
@@ -27,7 +35,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
     background-color: #403D39;
     padding: 0;
     position: relative;

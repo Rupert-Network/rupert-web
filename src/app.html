@@ -11,12 +11,19 @@
 	</body>
 </html>
 <style>
-	.fill, html, body {
+	html {
+		width: 100vw;
+		max-width: 100vw;
+		height: 100vh;
+		max-height: 100vh;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+	html, body {
 		margin: 0;
 		padding: 0;
+		width: 100%;
 		max-width: 100%;
-		width: 100vw;
-		display: inline-block;
 	}
 	#svelte {
 		max-width: 100%;

@@ -30,7 +30,6 @@ img{
 }
 
 div{
-  height: 100vh;
   width: 100vw;
   background-color: #FFFCF2;
 }

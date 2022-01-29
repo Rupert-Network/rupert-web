@@ -123,11 +123,10 @@ h5{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  width: 100%;
 }
 .container{
   background: #403D39;
   width:100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 </style>

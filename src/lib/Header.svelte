@@ -16,6 +16,7 @@
 
 <style>
   .header {
+    height: 6rem;
     font-family: Poppins;
     display: inline-flex;
     flex-direction: row;
