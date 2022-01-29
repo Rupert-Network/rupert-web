@@ -19,19 +19,19 @@ h2{
   padding: 10px;
   color: #EB5E28;
   font-family: 'Poppins';
-
   top: 150px;
   margin: 0;
 }
 .container{
   background: #403D39;
-  width:100%;
+  width: 100%;
+  height: 110vh;
+  overflow-x: hidden;
   margin-left: auto;
   margin-right: auto;
 }
 .pdf_container{
   padding: 30px;
   color:black;
-
 }
 </style>

@@ -8,16 +8,14 @@
 </script>
 
 
-<div class="container">
 <a href ="https://github.com/Rupert-Network"></a>
-    <h2><center>Contact</center></h2>
-      <p class="text_column_center"><center>Contact Information</center></p>
-      <p class="text_column_center"><center>Email:RUPITEAM@gmail.com</center></p>
-      <p class="text_column_center"><center>Phone Number:420-359-6969</center></p>
-      <p class="text_column_center"><center><a href = "https://github.com/Rupert-Network" target="_blank">GitHub Link</a></center></p>
-      <p class="text_column_center"><center><a href = "https://www.linkedin.com/" target="_blank">LinkedIn Link</a></center></p>
+<h2><center>Contact</center></h2>
+<p class="text_column_center"><center>Contact Information</center></p>
+<p class="text_column_center"><center>Email:RUPITEAM@gmail.com</center></p>
+<p class="text_column_center"><center>Phone Number:420-359-6969</center></p>
+<p class="text_column_center"><center><a href = "https://github.com/Rupert-Network" target="_blank">GitHub Link</a></center></p>
+<p class="text_column_center"><center><a href = "https://www.linkedin.com/" target="_blank">LinkedIn Link</a></center></p>
 
-</div>
 
 <!-- Matthew Notes: Added "open in new tab" functionality for the LinkedIn and GitHub page -->
 
