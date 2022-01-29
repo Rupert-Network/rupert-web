@@ -1,42 +1,31 @@
 <script>
-import Fa from 'svelte-fa/src/fa.svelte'
-import { faGithub, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
-
+  import IconLink from "$lib/atom/IconLink.svelte";
 </script>
-<div id="funny">
-  <div class = "icon-box">
-    <a href="https://github.com/Rupert-Network" target="_blank">
-      <Fa style = "color: white;" icon={faGithub} size="lg"/>
-    </a>
-    <a href = "https://twitter.com/?lang=en" target="_blank">
-      <Fa style = "color: white;" icon={faTwitter} size="lg"/>
-    </a>
-    <a href = "https://www.instagram.com/" target="_blank">
-      <Fa style = "color: white;" icon={faInstagram} size="lg"/>
-    </a>
+
+<div class="footer">
+  <div class = "social-links">
+    <IconLink link="https://www.instagram.com"/>
+    <IconLink link="https://www.twitter.com"/>
+    <IconLink link="https://github.com/Rupert-Network"/>
   </div>
 </div>
 
 
 <style>
+  .social-links {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
 
-
-.icon-box{
-  width: 25%;
-  display: flex;
-  justify-content: space-around;
-  align-items:center;
-}
-.github-icon{
-  color: white !important;
-}
-#funny{
-  height: 100px;
-  background-color: #EB5E28;
-  display: flex;
-  justify-content: space-around;
-  align-items:center;
-  width: 100%;
-  position: relative;
-}
+  .footer {
+    height: 6rem;
+    background-color: #EB5E28;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    position: relative;
+  }
 </style>
